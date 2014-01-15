@@ -1,0 +1,111 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	
+	font-size: 1em;
+}
+
+img {
+	width: 100%;
+	
+}
+
+nav li {
+	display: inline;
+	
+	
+}
+
+.nav {
+	background-color: #333;
+	
+	padding: 1em 0;
+}
+
+.nav ul {
+	margin: 0;
+	padding:0;
+	
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 1em;
+	
+	color: #fff;
+	text-decoration: none; 
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #999;
+}
+
+.nav[data-state="closed"] {
+	display: none;
+}
+
+.nav[data-state="open"] {
+	display: block;
+}
+
+nav .selected {
+	background-color: #36C;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+.dropdown {
+	color: #000;
+	background-color: #FFF;
+	
+	border-style: solid;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+summary {
+	background-color: #999;
+	color: #FFF;
+	
+	
+}
+
+summary::-webkit-details-marker {
+	display: none
+}
+
+footer {
+	color: #FFF;
+	background-color: #000;
+	
+	text-align: left;
+	font-size: 0.5em;
+}
